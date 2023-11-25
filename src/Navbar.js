@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
 
-      <div className='container'>
+      <div className='navbar'>
         <ol>
           <li><Link to={'/'}>Home</Link></li>
           <li><Link to={'service'}>Services</Link></li>

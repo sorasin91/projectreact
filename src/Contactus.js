@@ -38,7 +38,8 @@ function Contactus() {
             <table>
               <tr>
                 <td><label>First Name: </label></td>
-                <td><input type='text' placeholder='Enter your first name' /></td>
+                <td><input type='text' placeholder='Enter your first name' />
+                </td>
               </tr>
 
               <tr>

@@ -10,73 +10,61 @@ p {
 }
 
 /* Navbar CSS start here */
-.container ol {
+.navbar ol {
   display: flex;
-  justify-content: center;
-  
+  justify-content: right;
 }
 
-li {
+.navbar li {
   list-style-type: none;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
-  color: #F3EEEA;
 }
 
-.container li :hover {
+.navbar li :hover {
   background-color: #427D9D;
 }
 
 /* Navbar CSS end here */
 
+/* Service page CSS start here */
+.flex-child ol{
+  justify-content: center;
+}
+
+.flex-child li{
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    text-decoration: underline;
+    display: grid;
+    font-size: 20px;
+    
+}
+
+#service1{
+  display: block;
+  position: static;
+  justify-content: center;
+  background-color: #ECF4D6;
+  width: 200px;
+  padding: 150px 30px;
+  margin-left: 300px;
+}
+
+#service2{
+  display: block;
+  position: static;
+  justify-content: center;
+  background-color: #9AD0C2;
+  width: 400px;
+  padding: 100px 10px;
+  margin-right: 300px;
+}
+
+
 /* About us page CSS start here*/
-.animation {
-  margin-left: 30%;
-  height: 300px;
-  width: 300px;
-  background-color: #F3EEEA;
-  animation-name: a1;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-delay: 2s;
-  position: relative;
-}
-
-@keyframes a1 {
-  0% {
-    background-color: #F3EEEA;
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    background-color: #EBE3D5;
-    left: 100px;
-    top: 0px;
-  }
-
-  50% {
-    background-color: #B0A695;
-    left: 200px;
-    top: 0px;
-  }
-
-  75% {
-    background-color: #776B5D;
-    left: 300px;
-    top: 0px;
-  }
-
-  100% {
-    background-color: #F3EEEA;
-    left: 400px;
-    top: 0px
-  }
-}
-/* About us page CSS end here*/
-
-/* Contact us page CSS start here*/
 .flex-container {
   display: flex;
 }
@@ -89,6 +77,29 @@ li {
   margin-right: 0px;
 }
 
+#about1 {
+  display: block;
+  position: static;
+  justify-content: center;
+  background-color: #ECF4D6;
+  width: 200px;
+  padding: 200px 30px;
+  margin-left: 300px;
+}
+
+#about2 {
+  display: flex;
+  position: static;
+  justify-content: center;
+  background-color: #9AD0C2;
+  width: 400px;
+  padding: 100px 20px;
+  margin-right: 300px;
+}
+
+/* About us page CSS end here*/
+
+/* Contact us page CSS start here*/
 #box1 {
   display: block;
   position: static;

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <h6>This is the footer. Copy right &copy; by no one.</h6>
+      <h6>Copy right &copy; since 2023</h6>
     </div>
   )
 }

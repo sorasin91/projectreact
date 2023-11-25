@@ -20,7 +20,6 @@ function App() {
             <Route path='contact' element={<Contactus/>}/>
         </Routes>
         <Footer/>
-        
       </Router>
     </div>
   )
